@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C8F8B11801E8E2007CAFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8F8B01801E8E2007CAFDD /* Foundation.framework */; };
+		10C8F8B31801E8E2007CAFDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8F8B21801E8E2007CAFDD /* CoreGraphics.framework */; };
+		10C8F8B51801E8E2007CAFDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8F8B41801E8E2007CAFDD /* UIKit.framework */; };
+		10C8F8BB1801E8E2007CAFDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10C8F8B91801E8E2007CAFDD /* InfoPlist.strings */; };
+		10C8F8BD1801E8E2007CAFDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F8BC1801E8E2007CAFDD /* main.m */; };
+		10C8F8C11801E8E2007CAFDD /* TheBullAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F8C01801E8E2007CAFDD /* TheBullAppDelegate.m */; };
+		10C8F8C41801E8E2007CAFDD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8F8C21801E8E2007CAFDD /* Main_iPhone.storyboard */; };
+		10C8F8C71801E8E2007CAFDD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8F8C51801E8E2007CAFDD /* Main_iPad.storyboard */; };
+		10C8F8CA1801E8E2007CAFDD /* TheBullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F8C91801E8E2007CAFDD /* TheBullViewController.m */; };
+		10C8F8CC1801E8E2007CAFDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C8F8CB1801E8E2007CAFDD /* Images.xcassets */; };
+		10C8F8D31801E8E2007CAFDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8F8D21801E8E2007CAFDD /* XCTest.framework */; };
+		10C8F8D41801E8E2007CAFDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8F8B01801E8E2007CAFDD /* Foundation.framework */; };
+		10C8F8D51801E8E2007CAFDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C8F8B41801E8E2007CAFDD /* UIKit.framework */; };
+		10C8F8DD1801E8E2007CAFDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10C8F8DB1801E8E2007CAFDD /* InfoPlist.strings */; };
+		10C8F8DF1801E8E2007CAFDD /* thebullradioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10C8F8DE1801E8E2007CAFDD /* thebullradioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10C8F8D61801E8E2007CAFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C8F8A51801E8E1007CAFDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C8F8AC1801E8E2007CAFDD;
+			remoteInfo = thebullradio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C8F8AD1801E8E2007CAFDD /* thebullradio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thebullradio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C8F8B01801E8E2007CAFDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10C8F8B21801E8E2007CAFDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10C8F8B41801E8E2007CAFDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10C8F8B81801E8E2007CAFDD /* thebullradio-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thebullradio-Info.plist"; sourceTree = "<group>"; };
+		10C8F8BA1801E8E2007CAFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10C8F8BC1801E8E2007CAFDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10C8F8BE1801E8E2007CAFDD /* thebullradio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "thebullradio-Prefix.pch"; sourceTree = "<group>"; };
+		10C8F8BF1801E8E2007CAFDD /* TheBullAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheBullAppDelegate.h; sourceTree = "<group>"; };
+		10C8F8C01801E8E2007CAFDD /* TheBullAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheBullAppDelegate.m; sourceTree = "<group>"; };
+		10C8F8C31801E8E2007CAFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		10C8F8C61801E8E2007CAFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		10C8F8C81801E8E2007CAFDD /* TheBullViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TheBullViewController.h; sourceTree = "<group>"; };
+		10C8F8C91801E8E2007CAFDD /* TheBullViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheBullViewController.m; sourceTree = "<group>"; };
+		10C8F8CB1801E8E2007CAFDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		10C8F8D11801E8E2007CAFDD /* thebullradioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thebullradioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C8F8D21801E8E2007CAFDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		10C8F8DA1801E8E2007CAFDD /* thebullradioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "thebullradioTests-Info.plist"; sourceTree = "<group>"; };
+		10C8F8DC1801E8E2007CAFDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10C8F8DE1801E8E2007CAFDD /* thebullradioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = thebullradioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C8F8AA1801E8E2007CAFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8F8B31801E8E2007CAFDD /* CoreGraphics.framework in Frameworks */,
+				10C8F8B51801E8E2007CAFDD /* UIKit.framework in Frameworks */,
+				10C8F8B11801E8E2007CAFDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8F8CE1801E8E2007CAFDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8F8D31801E8E2007CAFDD /* XCTest.framework in Frameworks */,
+				10C8F8D51801E8E2007CAFDD /* UIKit.framework in Frameworks */,
+				10C8F8D41801E8E2007CAFDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C8F8A41801E8E1007CAFDD = {
+			isa = PBXGroup;
+			children = (
+				10C8F8B61801E8E2007CAFDD /* thebullradio */,
+				10C8F8D81801E8E2007CAFDD /* thebullradioTests */,
+				10C8F8AF1801E8E2007CAFDD /* Frameworks */,
+				10C8F8AE1801E8E2007CAFDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C8F8AE1801E8E2007CAFDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C8F8AD1801E8E2007CAFDD /* thebullradio.app */,
+				10C8F8D11801E8E2007CAFDD /* thebullradioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C8F8AF1801E8E2007CAFDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C8F8B01801E8E2007CAFDD /* Foundation.framework */,
+				10C8F8B21801E8E2007CAFDD /* CoreGraphics.framework */,
+				10C8F8B41801E8E2007CAFDD /* UIKit.framework */,
+				10C8F8D21801E8E2007CAFDD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10C8F8B61801E8E2007CAFDD /* thebullradio */ = {
+			isa = PBXGroup;
+			children = (
+				10C8F8BF1801E8E2007CAFDD /* TheBullAppDelegate.h */,
+				10C8F8C01801E8E2007CAFDD /* TheBullAppDelegate.m */,
+				10C8F8C21801E8E2007CAFDD /* Main_iPhone.storyboard */,
+				10C8F8C51801E8E2007CAFDD /* Main_iPad.storyboard */,
+				10C8F8C81801E8E2007CAFDD /* TheBullViewController.h */,
+				10C8F8C91801E8E2007CAFDD /* TheBullViewController.m */,
+				10C8F8CB1801E8E2007CAFDD /* Images.xcassets */,
+				10C8F8B71801E8E2007CAFDD /* Supporting Files */,
+			);
+			path = thebullradio;
+			sourceTree = "<group>";
+		};
+		10C8F8B71801E8E2007CAFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10C8F8B81801E8E2007CAFDD /* thebullradio-Info.plist */,
+				10C8F8B91801E8E2007CAFDD /* InfoPlist.strings */,
+				10C8F8BC1801E8E2007CAFDD /* main.m */,
+				10C8F8BE1801E8E2007CAFDD /* thebullradio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10C8F8D81801E8E2007CAFDD /* thebullradioTests */ = {
+			isa = PBXGroup;
+			children = (
+				10C8F8DE1801E8E2007CAFDD /* thebullradioTests.m */,
+				10C8F8D91801E8E2007CAFDD /* Supporting Files */,
+			);
+			path = thebullradioTests;
+			sourceTree = "<group>";
+		};
+		10C8F8D91801E8E2007CAFDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10C8F8DA1801E8E2007CAFDD /* thebullradioTests-Info.plist */,
+				10C8F8DB1801E8E2007CAFDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C8F8AC1801E8E2007CAFDD /* thebullradio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C8F8E21801E8E2007CAFDD /* Build configuration list for PBXNativeTarget "thebullradio" */;
+			buildPhases = (
+				10C8F8A91801E8E2007CAFDD /* Sources */,
+				10C8F8AA1801E8E2007CAFDD /* Frameworks */,
+				10C8F8AB1801E8E2007CAFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thebullradio;
+			productName = thebullradio;
+			productReference = 10C8F8AD1801E8E2007CAFDD /* thebullradio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10C8F8D01801E8E2007CAFDD /* thebullradioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C8F8E51801E8E2007CAFDD /* Build configuration list for PBXNativeTarget "thebullradioTests" */;
+			buildPhases = (
+				10C8F8CD1801E8E2007CAFDD /* Sources */,
+				10C8F8CE1801E8E2007CAFDD /* Frameworks */,
+				10C8F8CF1801E8E2007CAFDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C8F8D71801E8E2007CAFDD /* PBXTargetDependency */,
+			);
+			name = thebullradioTests;
+			productName = thebullradioTests;
+			productReference = 10C8F8D11801E8E2007CAFDD /* thebullradioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C8F8A51801E8E1007CAFDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TheBull;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Underwood, Inc";
+				TargetAttributes = {
+					10C8F8D01801E8E2007CAFDD = {
+						TestTargetID = 10C8F8AC1801E8E2007CAFDD;
+					};
+				};
+			};
+			buildConfigurationList = 10C8F8A81801E8E1007CAFDD /* Build configuration list for PBXProject "thebullradio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10C8F8A41801E8E1007CAFDD;
+			productRefGroup = 10C8F8AE1801E8E2007CAFDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C8F8AC1801E8E2007CAFDD /* thebullradio */,
+				10C8F8D01801E8E2007CAFDD /* thebullradioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C8F8AB1801E8E2007CAFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8F8C71801E8E2007CAFDD /* Main_iPad.storyboard in Resources */,
+				10C8F8CC1801E8E2007CAFDD /* Images.xcassets in Resources */,
+				10C8F8C41801E8E2007CAFDD /* Main_iPhone.storyboard in Resources */,
+				10C8F8BB1801E8E2007CAFDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8F8CF1801E8E2007CAFDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8F8DD1801E8E2007CAFDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C8F8A91801E8E2007CAFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8F8CA1801E8E2007CAFDD /* TheBullViewController.m in Sources */,
+				10C8F8BD1801E8E2007CAFDD /* main.m in Sources */,
+				10C8F8C11801E8E2007CAFDD /* TheBullAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8F8CD1801E8E2007CAFDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8F8DF1801E8E2007CAFDD /* thebullradioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10C8F8D71801E8E2007CAFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C8F8AC1801E8E2007CAFDD /* thebullradio */;
+			targetProxy = 10C8F8D61801E8E2007CAFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10C8F8B91801E8E2007CAFDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C8F8BA1801E8E2007CAFDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		10C8F8C21801E8E2007CAFDD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C8F8C31801E8E2007CAFDD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		10C8F8C51801E8E2007CAFDD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C8F8C61801E8E2007CAFDD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		10C8F8DB1801E8E2007CAFDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C8F8DC1801E8E2007CAFDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10C8F8E01801E8E2007CAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10C8F8E11801E8E2007CAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10C8F8E31801E8E2007CAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thebullradio/thebullradio-Prefix.pch";
+				INFOPLIST_FILE = "thebullradio/thebullradio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10C8F8E41801E8E2007CAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thebullradio/thebullradio-Prefix.pch";
+				INFOPLIST_FILE = "thebullradio/thebullradio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		10C8F8E61801E8E2007CAFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/thebullradio.app/thebullradio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thebullradio/thebullradio-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "thebullradioTests/thebullradioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		10C8F8E71801E8E2007CAFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/thebullradio.app/thebullradio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "thebullradio/thebullradio-Prefix.pch";
+				INFOPLIST_FILE = "thebullradioTests/thebullradioTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C8F8A81801E8E1007CAFDD /* Build configuration list for PBXProject "thebullradio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C8F8E01801E8E2007CAFDD /* Debug */,
+				10C8F8E11801E8E2007CAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C8F8E21801E8E2007CAFDD /* Build configuration list for PBXNativeTarget "thebullradio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C8F8E31801E8E2007CAFDD /* Debug */,
+				10C8F8E41801E8E2007CAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10C8F8E51801E8E2007CAFDD /* Build configuration list for PBXNativeTarget "thebullradioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C8F8E61801E8E2007CAFDD /* Debug */,
+				10C8F8E71801E8E2007CAFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10C8F8A51801E8E1007CAFDD /* Project object */;
+}
